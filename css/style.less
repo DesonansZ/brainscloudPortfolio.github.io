@@ -11,6 +11,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: @black;
+
+    &.no-scroll { //if modal windows then no scroll
+        overflow: hidden;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +49,8 @@ p {
 @import "blocks/news.less";
 @import "blocks/articles.less";
 @import "blocks/footer.less";
+@import "blocks/modal.less";
+@import "blocks/modal-work.less";
 
 
 /* Helpers */
